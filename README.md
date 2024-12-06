@@ -1,27 +1,63 @@
 # AngularPrep
 
+**AngularPrep** is a personal project aimed at preparing for Angular-related interviews. The project focuses on daily learning and hands-on exercises, with a strong emphasis on understanding Angular concepts, creating components, and mastering the framework in-depth. The goal is to build a solid foundation for interviews in frontend development roles that require expertise in Angular.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.11.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Project Overview
 
-## Code scaffolding
+This project is structured to cover various Angular topics and gradually build knowledge. The topics will include but are not limited to:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular Components**: Creating and managing components.
+- **Services and Dependency Injection**: Understanding Angular's DI system.
+- **Routing**: Implementing routing and navigation between views.
+- **Forms**: Handling template-driven and reactive forms.
+- **Directives**: Creating custom directives for enhancing templates.
+- **Pipes**: Implementing custom pipes for transforming data.
+- **HTTP Client**: Making API calls and handling responses.
+- **State Management**: Using services or libraries like NgRx for managing state.
+- **Testing**: Writing unit tests using Jasmine and Karma.
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Purpose
 
-## Running unit tests
+The primary purpose of this project is to:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Enhance Angular knowledge through practical projects and exercises.
+- Build components and applications using Angular.
+- Learn how to structure Angular projects effectively.
+- Prepare for Angular-related technical interviews.
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## How This Project is Structured
 
-## Further help
+This project will evolve over time with daily tasks and lessons on various Angular topics. Each day will focus on a specific subject, creating an application or component that showcases the key features of Angular. The project will:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Start with basic concepts like components, data binding, and events.
+- Progress to more advanced topics such as RxJS, reactive forms, routing, and state management.
+- Include real-world examples and interview-style problems.
+
+---
+
+## Getting Started
+
+To get started with this project on your local machine, follow these steps:
+
+1. **Clone the Repository (using the `changes` branch)**
+
+   ```bash
+   git clone -b changes https://github.com/9394113857/AngularPrep.git
+   cd AngularPrep
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+
+3. **Run the Development Server**
+   ```bash
+   ng serve
+   Open your browser and go to http://localhost:4200 to see the app in action. 
